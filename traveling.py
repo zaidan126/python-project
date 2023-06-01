@@ -23,11 +23,10 @@ elif country == "Russia":
         elif hotel== "Lesnoy home":
             print("welcome to our villa")
     elif city== "Stalingrad":
-            print("welcome to stalingrad")
-    hotel= input("pick a hotel: ")
-    if hotel== "volgograd":
+        print("welcome to stalingrad")
+        hotel= input("pick a hotel: ")
+        if hotel== "volgograd":
             print("welcome to volgograd")
-         
 elif country == "Uk":
     city= input("pick a city: ")
     if city== "London":
@@ -40,8 +39,8 @@ elif country == "Uk":
     elif city== "Birmingham":
         print("welcome to Birmingham")
         hotel= input("pick a hotel: ")
-    if hotel== "hyatt regency":
-        print("welcome to our city hotel")
+        if hotel== "hyatt regency":
+             print("welcome to our city hotel")
 
 
        
