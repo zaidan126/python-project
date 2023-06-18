@@ -1,0 +1,12 @@
+import os
+data=open("test.txt","r")
+# print(data.read())
+print(data.readline())
+# data=open("test.txt","w")
+# data.write("heilo")
+# data.close()
+data=open("test.txt","a")
+data.write("heilo")
+data.close()
+# data=open("test.txt","x")
+os.remove("test.txt")
